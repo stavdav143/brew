@@ -18,7 +18,7 @@ permissions:
   contents: read
 jobs:
   ubuntu:
-    if: startsWith(github.repository, 'Homebrew/')
+    if: startsWith(github.repository, 'stavdav143/')
     runs-on: ubuntu-22.04
     strategy:
       fail-fast: false
